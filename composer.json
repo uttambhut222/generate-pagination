@@ -1,0 +1,33 @@
+{
+    "name": "theopeneyes/generate-pagination",
+    "description": "A Laravel package to generate pagination",
+    "keywords": [
+        "laravel",
+        "api",
+        "pagination"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TheOpenEyes",
+            "homepage": "https://theopeneyes.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "theopeneyes/sort-associative-array": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheOpenEyes\\GeneratePagination\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheOpenEyes\\GeneratePagination\\GeneratePaginationServiceProvider"
+            ]
+        }
+    }
+}
